@@ -51,7 +51,7 @@ header a:hover, footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
+    line-height: 1.8em;
     padding-left: 30px;
     font-size: 3.5vw;
 }
@@ -65,18 +65,30 @@ section {
 .imagem {
     background-color: rgb(70, 70, 70);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > pre {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.226);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 2px 0px black;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 section > pre {
     white-space: pre-line;
     font-family: var(--fonte3);
-    
 }
 
 footer {
