@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #tela {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>	Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat hic dolorem dolor, vitae debitis saepe fugiat aperiam! Nemo obcaecati aliquam rerum saepe incidunt. Laudantium accusamus voluptates vero ducimus modi sint!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam similique quidem voluptatum, tempore nesciunt labore assumenda perspiciatis autem inventore, officia dignissimos. Soluta eum quod corrupti blanditiis animi expedita officia nisi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, laboriosam? Assumenda illum, nihil, odit id sunt deleniti iure repudiandae provident voluptate mollitia excepturi labore dignissimos dolore quam! Magni, ipsum voluptatum.</p>
+
+    <!-- OBRIGATÓRIO CRIAR "NAME" PARA ADICIONAR SUA PÁGINA EM UM LINK!!!-->
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora, qui quia quam possimus, accusamus temporibus enim, est nobis dignissimos vitae ipsam unde sint placeat et odio aperiam ducimus doloribus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio dolore sint nisi numquam quidem est officiis ex, inventore possimus suscipit, incidunt sapiente dolorem reprehenderit. Quasi ab suscipit reprehenderit fugiat voluptatibus</p><img src='imagens/phasmofobia.png'>">
+        <p>Infelizmente seu navegador não é compátivel com isso.</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti tempora, qui quia quam possimus, accusamus temporibus enim, est nobis dignissimos vitae ipsam unde sint placeat et odio aperiam ducimus doloribus! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio dolore sint nisi numquam quidem est officiis ex, inventore possimus suscipit, incidunt sapiente dolorem reprehenderit. Quasi ab suscipit reprehenderit fugiat voluptatibus?</p>
+</body>
+</html>
